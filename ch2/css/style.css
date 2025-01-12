@@ -1,0 +1,81 @@
+/*Οι μορφοποιήσεις εμφανίζονται σειριακά δηλ θα εμφανιστεί 
+για ένα ίδιο αντικείμενο η τελευταία*/
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: red;
+}
+
+p, li {
+  color: blue;
+}
+
+.aueb-logo {
+  width: 800px;
+  color: red;
+  background-color: brown;
+}
+
+/* Εφαρμόζεται μόνο για εικόνες με αυτή την κλάση aueb-logo*/ 
+img.aueb-logo {
+  height: auto;
+  border: 2px solid yellow;
+}
+
+/*μορφοποίηση με class*/
+.aueb-text {
+  color: yellow;
+  background-color: brown;
+}
+
+/*Μπορώ να χρησιμοποιήσω και το id για μορφοποίηση
+αλλά δεν είναι καλή πρακτική*/
+#auebText {
+  color: black;
+  background-color: orange;
+}
+
+/*Το σύμβολο > σημαίνει για όλους τους άμεσους απογόνους*/
+ul > li {
+  color: purple;
+}
+
+/*Όταν μέσα στο ul βρει strong*/
+ul strong {
+  background-color: green;
+}
+
+/*Μόλις βρεις h1 πάρε την αμέσως επόμενη παράγραφο*/
+/*Επειδή έχω class name (aueb-logo) παραπάνω θα εφαρμοτεί εκείνο και όχι
+αυτή η μορφοποίηση*/
+h1 + p {
+  background-color: wheat;
+}
+
+/*Για τα link έχει μορφοποιήσεις για κάθε state*/
+/*Αυτή είναι η σειρά που μορφοποιούμε τα links
+LoVeHateFeAr*/
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:focus {
+  outline: none;
+  background-color: green;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  color: pink;
+}

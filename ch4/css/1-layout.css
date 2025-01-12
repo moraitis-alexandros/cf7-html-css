@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 120px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+
+.aside {
+  height: 150px;
+  border: 1px solid black;
+  background-color: pink;
+  /* width: 200px; */
+  width: 30%;
+  float: left;
+}
+
+.main {
+  height: 200px;
+  border: 1px solid black;
+  background-color: brown;
+  float: left; /*Απαιτείται να δώσω width*/ 
+  /* width: 200px; */
+  width: 70%;
+}
+
+.footer {
+  height: 150px;
+  border: 1px solid black;
+  background-color: lightblue;
+  clear: both; /*Για να κάτσει στη θέση του και να μην μετακινηθεί λόγο του ότι έδωσα float σε main και aside*/
+}

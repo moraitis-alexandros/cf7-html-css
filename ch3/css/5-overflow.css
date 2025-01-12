@@ -1,0 +1,11 @@
+p {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+ /* overflow: visible; /*Το overflow φαίνεται*/
+  /*overflow: hidden; /*Το κείμενο που έχει γίνει overflow
+  δεν φαίνεται*/
+  /*overflow: scroll; /*Κρύβει και ανοίγει scrollbar*/
+  overflow: auto; /*Παρόμοιο με το scroll με τη διαφορά
+  ότι εμφανίζει scroll bar ΜΟΝΟ οταν χρειαστεί*/
+}

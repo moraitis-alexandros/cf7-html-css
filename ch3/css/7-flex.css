@@ -1,0 +1,17 @@
+.container {
+  display: flex; /*Τα στοιχεία τα οποία
+  ήταν πριν block element τώρα έρχεται το ένα δίπλα στο
+  άλλο*/
+  height: 200px;
+  border: 1px solid black;
+
+  /*Όταν έχω display flex μπορώ να εκτελέσω τα παρακάτω*/
+  /* justify-content: space-around; */
+  /* justify-content: space-between;  */
+  justify-content: space-evenly; /*Ισομοιράζει*/
+  /*Με την λογική ότι έχω ορίσει justify-content και 
+  έχω ορίσει και ύψος στο container*/
+  align-items: center;
+  align-items: start;
+  align-items: end;
+}

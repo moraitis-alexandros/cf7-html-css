@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+div {
+  margin-top: 30px;
+} /*Η βέλτιστη πρακτική είναι να γίνει με class name*/
+
+form {
+  width: 80%;
+}
+
+input {
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="radio"] {
+  width: auto;
+}
+
+fieldset {
+  width: 200px;
+  margin-left: 30px;
+}
+
+input:focus {
+  outline: 1px solid red;
+}
+
+abbr {
+  color: red;
+}
+
+button {
+  margin: 20px 0 0 120px;
+  padding: 10px;
+  background-color: brown;
+}

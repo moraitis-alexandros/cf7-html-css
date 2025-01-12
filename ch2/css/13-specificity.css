@@ -1,0 +1,22 @@
+p {
+  color: red;
+}
+
+/*Ο κανόνας που εφαρμόζεται είναι ο τελευταίος στη
+σειρά*/
+p {
+  color: blue;
+}
+
+
+#cf-text {
+  color: blueviolet;
+}
+
+.cf-text {
+  color: green;
+}
+
+p {
+  color: red;
+}

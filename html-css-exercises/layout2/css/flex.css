@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px;
+}
+
+
+ main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-1 {
+  height: 300px;
+  width: 30%;
+  text-align: center;
+  line-height: 300px;
+  flex: 1; /*Σημαίνει flex grow, πιάνει όλο το χώρο που αναλογεί από τον πατέρα*/
+}
+
+.column-2 {
+  height: 300px;
+  width: 30%;
+  text-align: center;
+  line-height: 300px;
+  flex: 2; /*Σημαίνει flex grow, πιάνει όλο το χώρο που αναλογεί από τον πατέρα*/
+}
+
+
+
+.bg-lightgray {
+  background-color: #aaa;
+}
+
+.bg-gray {
+  background-color: #bbb;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px;
+}

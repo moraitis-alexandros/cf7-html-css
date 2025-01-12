@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/4-mockup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+
+      <div class="logo">
+        <img src="../img/logo.jpg" alt="Aueb">
+      </div>
+
+      
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="">Home</a>
+          <ul class="dropdown-content">
+            <li><a href="">Εκπαίδευση</a></li>
+            <li><a href="">Έρευνα</a></li>
+            <li><a href="">Διασύνδεση</a></li>
+            <li><a href="">Υπηρεσίες</a></li>
+          </ul>
+        </li>
+          <li><a href="">We Educate</a></li>
+          <li><a href="">We Innovate</a></li>
+          <li><a href="">We are</a></li>
+        </ul>
+      </nav>
+
+<div class="nav-toggle">
+  <button type="button">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</div>
+
+    </header>
+
+    <div class="navbar-toggle">
+      <ul>
+        <li class="dropdown">
+          <a href="">Home</a>
+        <ul class="dropdown-content">
+          <li><a href="">Εκπαίδευση</a></li>
+          <li><a href="">Έρευνα</a></li>
+          <li><a href="">Διασύνδεση</a></li>
+          <li><a href="">Υπηρεσίες</a></li>
+        </ul>
+      </li>
+        <li><a href="">We Educate</a></li>
+        <li><a href="">We Innovate</a></li>
+        <li><a href="">We are</a></li>
+      </ul>
+    </div>
+
+    <div class="home-img gap-bottom">
+      <div class="home-title">
+        <span>All you need is love, passion, design software and...<br>Coding Factory</span>
+      </div>
+    </div>
+
+    <main>
+      <h2>Coding Factory</h2>
+      <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ex praesentium dolor ipsa nesciunt nemo a voluptatum tempora doloribus perferendis laudantium, asperiores nisi ut cumque quaerat cupiditate reprehenderit assumenda possimus.</p>
+      </section>
+
+      <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione amet, ipsum dolore natus tempora pariatur, recusandae incidunt voluptatibus, provident laborum iure odit aperiam praesentium ducimus commodi molestias ipsam at doloribus?</p>
+      </section>
+
+      <section>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis distinctio eos quasi doloremque quis, exercitationem nobis dolore eaque est doloribus atque iste, ipsum ab eligendi voluptates officia ea natus rerum.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div>&copy; Coding Factory 2024 - AUEB</div>
+      <div>
+        <span>Follow us: </span>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </footer>
+  </div>
+  
+  <script>
+    const img = document.querySelector('.home-img');
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const navBar = document.querySelector('.navbar-toggle');
+    const main = document.querySelector('.main');
+    const footer = document.querySelector('.footer');
+
+
+    toggleBtn.addEventListener('click', function() {
+        img.classList.toggle('hidden');
+        navBar.classList.toggle('show');
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.name {
+  color: blue;
+}
+
+.contact-info {
+  border: 2px solid purple;
+  margin-right: 850px;
+  background-color: lightgray;
+}
+
+.teacher-color {
+  color: lightgrey;
+
+}
+
+.line {  
+  border-top: 2px solid blue; /* Add a colored border */
+}
+
+a:visited {
+  color: orangered;
+}

@@ -1,0 +1,28 @@
+/*Large διαστάσεις*/
+@media (min-width:992px) and (max-width:1200px) {
+  body {
+    background-color: green;
+  }
+}
+
+/*Large διαστάσεις*/
+@media (min-width:1201px) and (max-width:1400px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* Extra Large διαστάσεις*/
+@media (min-width:1401px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/*x-small small  medium*/
+/*Large διαστάσεις*/
+@media (max-width:992px){
+  body {
+    background-color: yellow;
+  }
+}

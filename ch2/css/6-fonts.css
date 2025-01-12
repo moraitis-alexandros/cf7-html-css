@@ -1,0 +1,32 @@
+body {
+  background-color: lightgreen;
+}
+
+.cf-title {
+  /*Web safe fonts. Θα πάει πρώτα στη Georgia, αν δεν την
+  βρε πάει στη επόμενη κοκ*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 0px 2px 2px red;
+  background-color: rgb(180, 140, 125);
+}
+
+.cf-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.course-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.course-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

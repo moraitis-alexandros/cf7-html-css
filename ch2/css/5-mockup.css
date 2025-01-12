@@ -1,0 +1,35 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
+  background-color: brown;
+}
+
+.icon-small {
+  height: auto;
+  width: 150px;
+}
+
+.container-fluid {
+  width: 90%;
+  border: 1px double red;
+}
+
+.aueb-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em; /*Το em είναι 1.2*το size του parent*/
+                    /*Το rem (root) ρωτάει απευθείας browser*/
+  color: aliceblue;
+                  }
+
+.courses-wrapper {
+  background-color: aquamarine;
+}
+
+.courses-text {
+  color: beige;
+  font-size: 1.1rem;
+}

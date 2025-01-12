@@ -1,0 +1,31 @@
+table, th, td {
+  border: 1px solid black;
+  /*Με γραμμή 2 θα έχω διπλή γραμμή στο εσωτερικό
+  καθώς είναι μια γραμμή για κάθε td*/
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th {
+  height: 70px;
+}
+
+thead {
+  background-color: lightcyan;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+tr:hover {
+  background-color: black;
+  color: white;
+}

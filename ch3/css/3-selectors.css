@@ -1,0 +1,26 @@
+  h2[id], p[id] {
+     background-color: aquamarine;
+}
+
+a[href="#"] {
+  background-color: blueviolet;
+}
+
+/*Όλα τα elements για τα οποία έχει οριστεί class
+των οποίων το class name ξεκινάει ^= με τη λέξη info*/
+/* *[class^="info"] {
+  background-color: brown;
+} */
+
+
+/*Όλα τα elements για τα οποία έχει οριστεί class
+των οποίων το class name περιέχει *= τη λέξη text*/
+*[class*="text"] {
+  background-color: cadetblue;
+}
+
+/*Όλα τα h2 elements για τα οποία έχει οριστεί class
+των οποίων το class name τελειώνει $= με τη λέξη title*/
+h2[class$="title"] {
+font-style: italic;
+}

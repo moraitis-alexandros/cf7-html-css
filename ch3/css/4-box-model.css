@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box; /*Εφαρμόζει width - height 
+  που έχει οριστεί ανεξάρτητα από τυχόν padding*/
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  /* height: 500px; */
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: beige;
+  text-align: center;
+  
+  vertical-align: center;
+  line-height: 200px; /*Χρησιμοποιώ αυτές τις δύο εντολές
+  μαζί για κατακόρυφη στοίχιση*/
+  
+  border: 1px solid red;
+  padding: 40px; /*Με αυτό το padding και λαμβάνοντας
+  υπόψιν ότι το height - width είναι 300 το padding
+  προσθέτει pixel ΑΡΑ μεγαλώνει το κουτί ΕΚΤΟΣ
+  και αν βάλω box-sizing: border-box*/
+  /* padding: 10px; /*Κενό ανάμεσα στο κουτί (border)
+  και στο εσωτερικό περιεχόμενο*/
+  /* margin: 10px; /*Κενό ανάμεσα στο κουτί (border) */
+  /* και στα εξωτερικά περιεχόμενα*/  
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.box2 {
+  width: 300px;
+  height: 200px;
+  background-color: beige;
+  border: 1px solid green;
+  text-align: center;
+  margin: 30px;
+}
+

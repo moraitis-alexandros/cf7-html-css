@@ -1,0 +1,58 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.container {
+  margin-left: 550px;
+  margin-right: 550px;
+  border-radius: 10%;
+}
+
+.heading {
+  color: rgb(173, 173, 173);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+.main-form, .text-field2 {
+  background-color: white;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.button {
+  text-align: center;
+  padding: 0.5rem 3.8rem;
+  font-size: 16px;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border-radius: 5%;
+}
+
+a {
+  color: white;
+}
+
+.register-text {
+  color: rgb(173, 173, 173);
+}
+
+.register {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input[type=text] {
+  border: 1px solid whitesmoke;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 5%;
+}
+
+
+

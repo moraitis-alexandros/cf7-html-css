@@ -1,0 +1,52 @@
+.city {
+  width: 600px;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  /*Ουσιαστικά οι γραμμές 13,14 αναιρούν την .city
+  Δίνω διαστάσεις τετραγώνου διότι θέλω να κάνω την εικόνα κύκλο. Εννοείται βάζω ποσοστό radius 50%*/
+}
+
+.thumbnail {
+  width: 150px;
+  height: auto;
+  border: 2px double rgb(177, 174, 174)
+}
+
+.thumbnail:hover {
+  box-shadow: 0px 0px 4px rgb(55, 186, 230); /*Δηλ σκια γύρω γύρω*/
+}
+
+.card {
+  width: 400px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.london-bg {
+  height: 400px;
+  border: 2px solid black;
+  background-image: url('../images/london.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

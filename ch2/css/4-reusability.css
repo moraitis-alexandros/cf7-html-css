@@ -1,0 +1,25 @@
+body {
+  background-color: lightgray;
+}
+
+.aueb-header {
+  background-color: brown;
+  /* color: white; */
+}
+
+.cf-header {
+  background-color: green;
+  /* color: white; */
+}
+
+.aueb-text {
+  background-color: blue;
+  /* color: white; */
+}
+
+/*Μπορώ να βάλω πολλά class name*/
+/*Εφαρμόζω κανόνα στην fg-light και την βάζω όπου θέλω
+οπότε αν θέλω αλλαγή θα κάνω σε ένα σημείο*/
+.fg-light {
+  color: red;
+}

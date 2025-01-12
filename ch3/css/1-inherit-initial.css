@@ -1,0 +1,15 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: red;
+  text-align: justify;
+  border: 1px solid black;
+}
+
+p {
+  border: 1px solid green;
+  text-align: initial; /*Αυτό που προβλέπεται από τον browser*/
+}
+
+/*Με τα πιο πάνω καταλαβαίνω ότι το text-align και το border
+ΔΕΝ κληρονομούνται στα παιδιά. Αντίθετα font και color κληρονομείται*/
